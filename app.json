@@ -1,0 +1,21 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-php"
+    }
+  ],
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "name": "imarkdev",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
